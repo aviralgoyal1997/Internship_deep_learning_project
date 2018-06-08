@@ -11,7 +11,7 @@ References : <href>https://datasciencebasicsblog.wordpress.com/computer-vision-w
 will be using <b>classify_image.py</b> for this 
 
 <h4> python  classify_image.py  model_dir='directory location'</h4>
-Softwares needed in this : python2.7
+Softwares needed in this : python2.7 <br>
 packages : tensorflow,numpy,re
 
 <h3>2.Downloading images and running model on all images in single run and storing output column in data file and running similarity model and saving in new column.</h3>
@@ -23,23 +23,23 @@ for this use <b>download_prediction_similarity.py</b>
 argument1 = location of csv file
 argument2 = location including folder name in which images will be downloaded
 
-software : python2.7
+software : python2.7 <br>
 packages : pandas,numpy,spacy,spacy model - 'en_core_web_md'
 
 
-example : >>>python download_prediction_similarity.py '/home/Desktop/exportSrilanka.csv' '/homme/Desktop/allimages'
+example : >>>python download_prediction_similarity.py '/home/Desktop/exportSrilanka.csv' '/homme/Desktop/allimages' <br>
 
 * don't forget to put location of downloaded inception model in download_prediction_similarity.py
 
 
-commands to install packages
+<h4>commands to install packages</h4>
 
 please make sure these packages are installed for python2 not python3
 
-sudo pip install tensorflow
-sudo pip install pandas
-sudo pip install numpy
-sudo pip install spacy
-sudo pip install re
-sudo python2 install spacy $ sudo python2 -m spacy download en_core_web_md  
+<h4>sudo pip install tensorflow</h4>
+<h4>sudo pip install pandas </h4>
+<h4>sudo pip install numpy </h4>
+<h4>sudo pip install spacy</h4>
+<h4>sudo pip install re</h4>
+<h4>sudo python2 install spacy $ sudo python2 -m spacy download en_core_web_md  </h4>
  
