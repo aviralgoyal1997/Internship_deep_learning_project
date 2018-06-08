@@ -2,10 +2,10 @@
 <h2>Problem Statement and solution procedure</h2>
 We have data exportSrilanka.csv,in this data attimage column is url of image and 'mymodelclassification' is classification that is expected for image but that url is sometimes irrelevant image so our task is to find out irrelevant images in thisa data for that we first need to detect object in images so for that we gonna use inception model on each image.After using this we will have a new column 'predictions' now to find out if there is relation between my classification and model classification we gonna use spacy model for word similarity and then images having similarity less than threshold are removed from dataset.
 
-<h3>Read documentation file for understanding implementatiion of code</h3>
+
 References : <href>https://datasciencebasicsblog.wordpress.com/computer-vision-with-deep-learning-architectures/</href>
 
-
+<h3>for understanding implementatiion of code</h3>
 <h3>1.Downloading inception model </h3>
 
 will be using <b>classify_image.py</b> for this 
